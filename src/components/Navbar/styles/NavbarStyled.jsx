@@ -8,6 +8,7 @@ export const NavbarContainer = styled.nav`
   border-left: 3.5rem solid black;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
   height: 20rem;
+  background: ${colors.white};
 `;
 
 export const NavbarLogo = styled.div`
@@ -26,7 +27,7 @@ export const NavbarLogoText = styled.span`
 export const NavbarDescriptionText = styled.div`
   font-size: 3rem;
   font-weight: 600;
-  color: ${colors.black};
+  color: ${colors.white};
   padding-left: 3rem;
   display: flex;
   align-items: center;

@@ -1,18 +1,22 @@
 import { createGlobalStyle } from "styled-components";
 import "modern-css-reset";
+import styled from "styled-components";
 
 export const colors = {
   black: "#292828",
   white: "#FDFDFF",
+  bg: "#2b4980",
 };
 
 export const GlobalStyles = createGlobalStyle`
+  body{
+      font-family: 'Montserrat', sans-serif;
+      font-weight:700;
+      font-size:700;
+  }
+`;
 
-body{
-    font-family: 'Montserrat', sans-serif;
-    font-weight:700;
-    font-size:700;
-    background: ${colors.white};
-    padding: 12rem;
-}
+export const AppContainer = styled.div`
+  background: ${colors.bg};
+  padding: 7.5rem 15rem;
 `;
