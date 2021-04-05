@@ -1,5 +1,5 @@
 import TextLoop from "react-text-loop";
-import AvatarLogo from "../../assets/avatar.svg";
+import AvatarLogo from "../../assets/avatarr.svg";
 
 import {
   NavbarContainer,
