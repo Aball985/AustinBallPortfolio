@@ -30,6 +30,12 @@ const Navbar = () => {
         <span>🧙</span>Fullstack Developer
       </p>,
       <p>
+        <span>🐱‍👤</span>Flexbox Ninja
+      </p>,
+      <p>
+        <span>🕵</span>Problem Solver
+      </p>,
+      <p>
         <span>🎤</span>Raphead
       </p>,
       <p>

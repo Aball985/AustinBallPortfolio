@@ -4,14 +4,13 @@ export const MainContainer = styled.main`
 `;
 export const MainHeader = styled.h1`
   font-weight: 700;
-  margin-top: 2rem;
   font-size: 3rem;
 `;
 export const MainIntroText = styled.p`
   font-weight: 500;
   font-size: 1.3rem;
   width: 35rem;
-  margin-top: 2rem;
+  margin-top: 3rem;
   text-align: center;
   .fancytext {
     font-weight: 900;
@@ -30,7 +29,7 @@ export const MainWrapper = styled.div`
   align-items: center;
   justify-content: center;
   border-left: 3.5rem solid black;
-  padding: 10rem 0;
+  padding: 3rem 0;
   background: white;
   clip-path: polygon(
     0 0,
@@ -40,8 +39,6 @@ export const MainWrapper = styled.div`
     3.5rem 100%,
     0 calc(100% - 3.5rem)
   );
-
-  /* clip-path: polygon(96% 0, 100% 8%, 100% 100%, 0 100%, 0 0); */
 `;
 
 export const MainGridContainer = styled.div`
@@ -59,7 +56,6 @@ export const MainGridContainerItem = styled.div`
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
   height: 30rem;
   width: 20rem;
-  font-size: 0.8rem;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -77,4 +73,6 @@ export const MainGridContainerItemImg = styled.div`
   font-size: 8rem;
 `;
 
-export const MainGridContainerItemDescription = styled.div``;
+export const MainGridContainerItemDescription = styled.div`
+  font-size: 0.8rem;
+`;
